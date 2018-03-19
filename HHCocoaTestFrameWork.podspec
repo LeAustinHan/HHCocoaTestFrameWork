@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   #pod的名称
   s.name         = "HHCocoaTestFrameWork"
   #pod的版本
-  s.version      = "1.0.2"
+  s.version      = "1.0.4"
   #pod简介(最多140字符)
   s.summary      = "HHCocoaTestFrameWork."
   #pod详细描述
@@ -76,8 +76,9 @@ Pod::Spec.new do |s|
   # s.dependency "BLNetworking"
   # s.dependency "BLAPIManagers"
   # s.dependency "BLMediator"
-  
+ s.dependency "testpods"
+
   # 验证私有库依赖问题
-  # pod lib lint --sources='https://git.speiyou.cn/app/xes_bclib_ios_privatepods,https://github.com/CocoaPods/Specs' --allow-warnings
+  # pod lib lint --sources='https://github.com/wenssh/testpods.git,https://github.com/CocoaPods/Specs' --allow-warnings
 
 end
